@@ -1,14 +1,2 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-# NFT-Art-with-On-Chain-Metadata
+I am using SVGs to generate random NFT ImageURIs and Metadata 100% on-chain. In combination with Chainlink VRF to create randomness and true scarcity. I used Hardhat, Javascript, and Solidity. These customized smart contracts were deployed to the Polygon chain, so you can see exactly how i did this!
+I am using the [Polygon NFTs](https://polygon.io/nft) contract to create the NFTs.
